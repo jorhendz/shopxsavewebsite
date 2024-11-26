@@ -1,5 +1,11 @@
 import React from 'react';
-import Image from 'next/image'; // Import Next.js Image component for optimized images
+import Image from 'next/image';
+import bannerImg from '../assets/images/banner-1.jpg';
+import jacketImg1 from '../assets/images/products/jacket-3.jpg';
+import jacketImg2 from '../assets/images/products/jacket-4.jpg';
+import skirtImg1 from '../assets/images/products/clothes-3.jpg';
+import skirtImg2 from '../assets/images/products/clothes-4.jpg';
+import blogImg from '../assets/images/blog-3.jpg';
 
 const Main = () => {
   return (
@@ -9,13 +15,7 @@ const Main = () => {
           <div className="container">
             <div className="slider-container has-scrollbar">
               <div className="slider-item">
-                <Image
-                  src="/assets/images/banner-1.jpg" // Static files should be in the 'public' directory
-                  alt="women's latest fashion sale"
-                  width={1200} // Define width and height for Image optimization
-                  height={600}
-                  className="banner-img"
-                />
+                <Image src={bannerImg} alt="women's latest fashion sale" className="banner-img" />
                 <div className="banner-content">
                   <p className="banner-subtitle">Trending item</p>
                   <h2 className="banner-title">Women's latest fashion sale</h2>
@@ -39,23 +39,12 @@ const Main = () => {
           </div>
 
           <h2 className="title">New Products</h2>
+
           <div className="product-grid">
             <div className="showcase">
               <div className="showcase-banner">
-                <Image
-                  src="/assets/images/products/jacket-3.jpg"
-                  alt="Mens Winter Leathers Jackets"
-                  width={300}
-                  height={400}
-                  className="product-img default"
-                />
-                <Image
-                  src="/assets/images/products/jacket-4.jpg"
-                  alt="Mens Winter Leathers Jackets"
-                  width={300}
-                  height={400}
-                  className="product-img hover"
-                />
+                <Image src={jacketImg1} alt="Mens Winter Leathers Jackets" width={300} className="product-img default" />
+                <Image src={jacketImg2} alt="Mens Winter Leathers Jackets" width={300} className="product-img hover" />
                 <p className="showcase-badge">15%</p>
                 <div className="showcase-actions">
                   <button className="btn-action">
@@ -72,6 +61,7 @@ const Main = () => {
                   </button>
                 </div>
               </div>
+
               <div className="showcase-content">
                 <a href="#" className="showcase-category">jacket</a>
                 <a href="#">
@@ -93,20 +83,8 @@ const Main = () => {
 
             <div className="showcase">
               <div className="showcase-banner">
-                <Image
-                  src="/assets/images/products/clothes-3.jpg"
-                  alt="Black Floral Wrap Midi Skirt"
-                  className="product-img default"
-                  width={300}
-                  height={400}
-                />
-                <Image
-                  src="/assets/images/products/clothes-4.jpg"
-                  alt="Black Floral Wrap Midi Skirt"
-                  className="product-img hover"
-                  width={300}
-                  height={400}
-                />
+                <Image src={skirtImg1} alt="Black Floral Wrap Midi Skirt" width={300} className="product-img default" />
+                <Image src={skirtImg2} alt="Black Floral Wrap Midi Skirt" width={300} className="product-img hover" />
                 <p className="showcase-badge angle pink">new</p>
                 <div className="showcase-actions">
                   <button className="btn-action">
@@ -123,6 +101,7 @@ const Main = () => {
                   </button>
                 </div>
               </div>
+
               <div className="showcase-content">
                 <a href="#" className="showcase-category">skirt</a>
                 <h3>
@@ -149,13 +128,7 @@ const Main = () => {
             <div className="blog-container has-scrollbar">
               <div className="blog-card">
                 <a href="#">
-                  <Image
-                    src="/assets/images/blog-3.jpg"
-                    alt="EBT vendors: Claim Your Share of SNAP Online Revenue."
-                    className="blog-banner"
-                    width={300}
-                    height={200}
-                  />
+                  <Image src={blogImg} alt="EBT vendors: Claim Your Share of SNAP Online Revenue." className="blog-banner" width={300} />
                 </a>
                 <div className="blog-content">
                   <a href="#" className="blog-category">Shoes</a>

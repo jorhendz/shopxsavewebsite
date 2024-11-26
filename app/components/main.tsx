@@ -15,12 +15,12 @@ const Main = () => {
           <div className="container">
             <div className="slider-container has-scrollbar">
               <div className="slider-item">
-                <Image src={bannerImg} alt="women's latest fashion sale" className="banner-img" />
+                <Image src={bannerImg} alt="women&apos;s latest fashion sale" className="banner-img" />
                 <div className="banner-content">
                   <p className="banner-subtitle">Trending item</p>
-                  <h2 className="banner-title">Women's latest fashion sale</h2>
+                  <h2 className="banner-title">Women&apos;s latest fashion sale</h2>
                   <p className="banner-text">
-                    starting at &dollar; <b>20</b>.00
+                    starting at &#36; <b>20</b>.00
                   </p>
                   <a href="#" className="banner-btn">Shop now</a>
                 </div>
@@ -75,8 +75,8 @@ const Main = () => {
                   <ion-icon name="star-outline"></ion-icon>
                 </div>
                 <div className="price-box">
-                  <p className="price">$48.00</p>
-                  <del>$75.00</del>
+                  <p className="price">&#36;48.00</p>
+                  <del>&#36;75.00</del>
                 </div>
               </div>
             </div>
@@ -115,8 +115,8 @@ const Main = () => {
                   <ion-icon name="star"></ion-icon>
                 </div>
                 <div className="price-box">
-                  <p className="price">$25.00</p>
-                  <del>$35.00</del>
+                  <p className="price">&#36;25.00</p>
+                  <del>&#36;35.00</del>
                 </div>
               </div>
             </div>

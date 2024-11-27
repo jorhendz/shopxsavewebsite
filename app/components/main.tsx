@@ -6,6 +6,7 @@ import jacketImg2 from '../assets/images/products/jacket-4.jpg';
 import skirtImg1 from '../assets/images/products/clothes-3.jpg';
 import skirtImg2 from '../assets/images/products/clothes-4.jpg';
 import blogImg from '../assets/images/blog-3.jpg';
+import dressFrock from '../assets/images/icons/dress.svg';
 
 const Main = () => {
   return (
@@ -15,10 +16,10 @@ const Main = () => {
           <div className="container">
             <div className="slider-container has-scrollbar">
               <div className="slider-item">
-                <Image src={bannerImg} alt="women&apos;s latest fashion sale" className="banner-img" />
+                <Image src={bannerImg} alt="women's latest fashion sale" className="banner-img" />
                 <div className="banner-content">
                   <p className="banner-subtitle">Trending item</p>
-                  <h2 className="banner-title">Women&apos;s latest fashion sale</h2>
+                  <h2 className="banner-title">Women's latest fashion sale</h2>
                   <p className="banner-text">
                     starting at &#36; <b>20</b>.00
                   </p>
@@ -29,15 +30,114 @@ const Main = () => {
           </div>
         </div>
 
-        <div className="container">
-          <div className="sidebar has-scrollbar" data-mobile-menu>
-            <div className="sidebar-category">
-              <div className="sidebar-top">
-                <h2 className="sidebar-title">Category</h2>
-              </div>
-            </div>
-          </div>
 
+          <div className="container">
+
+            <div className="category-item-container has-scrollbar">
+
+            <div className="category-item">
+
+<div className="category-img-box">
+  <Image src={dressFrock} alt="dress & frock" width="30" />
+</div>
+
+<div className="category-content-box">
+
+  <div className="category-content-flex">
+    <h3 className="category-item-title">Dress & frock</h3>
+
+    <p className="category-item-amount">(53)</p>
+  </div>
+
+  <a href="#" className="category-btn">Show all</a>
+
+</div>
+
+</div>
+              <div className="category-item">
+
+                <div className="category-img-box">
+                  <Image src={dressFrock} alt="dress & frock" width="30" />
+                </div>
+
+                <div className="category-content-box">
+
+                  <div className="category-content-flex">
+                    <h3 className="category-item-title">Dress & frock</h3>
+
+                    <p className="category-item-amount">(53)</p>
+                  </div>
+
+                  <a href="#" className="category-btn">Show all</a>
+
+                </div>
+
+              </div>
+              <div className="category-item">
+
+                <div className="category-img-box">
+                  <Image src={dressFrock} alt="dress & frock" width="30" />
+                </div>
+
+                <div className="category-content-box">
+
+                  <div className="category-content-flex">
+                    <h3 className="category-item-title">Dress & frock</h3>
+
+                    <p className="category-item-amount">(53)</p>
+                  </div>
+
+                  <a href="#" className="category-btn">Show all</a>
+
+                </div>
+
+              </div>
+              <div className="category-item">
+
+                <div className="category-img-box">
+                  <Image src={dressFrock} alt="dress & frock" width="30" />
+                </div>
+
+                <div className="category-content-box">
+
+                  <div className="category-content-flex">
+                    <h3 className="category-item-title">Dress & frock</h3>
+
+                    <p className="category-item-amount">(53)</p>
+                  </div>
+
+                  <a href="#" className="category-btn">Show all</a>
+
+                </div>
+
+              </div>
+              <div className="category-item">
+
+                <div className="category-img-box">
+                  <Image src={dressFrock} alt="dress & frock" width="30" />
+                </div>
+
+                <div className="category-content-box">
+
+                  <div className="category-content-flex">
+                    <h3 className="category-item-title">Dress & frock</h3>
+
+                    <p className="category-item-amount">(53)</p>
+                  </div>
+
+                  <a href="#" className="category-btn">Show all</a>
+
+                </div>
+
+              </div>
+
+
+              </div>
+
+            </div>
+
+
+        <div className="container">
           <h2 className="title">New Products</h2>
 
           <div className="product-grid">
@@ -121,27 +221,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-        </div>
 
-        <div className="blog">
-          <div className="container">
-            <div className="blog-container has-scrollbar">
-              <div className="blog-card">
-                <a href="#">
-                  <Image src={blogImg} alt="EBT vendors: Claim Your Share of SNAP Online Revenue." className="blog-banner" width={300} />
-                </a>
-                <div className="blog-content">
-                  <a href="#" className="blog-category">Shoes</a>
-                  <h3>
-                    <a href="#" className="blog-title">EBT vendors: Claim Your Share of SNAP Online Revenue.</a>
-                  </h3>
-                  <p className="blog-meta">
-                    By <cite>Mr Selsa</cite> / <time dateTime="2022-02-10">Feb 10, 2022</time>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </main>
     </>

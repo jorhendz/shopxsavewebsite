@@ -179,7 +179,7 @@ const Main = () => {
                 </div>
               </div>
             </div>
-
+ 
             <div className="showcase">
               <div className="showcase-banner">
                 <Image src={skirtImg1} alt="Black Floral Wrap Midi Skirt" width={300} className="product-img default" />

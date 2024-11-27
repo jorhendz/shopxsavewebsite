@@ -5,7 +5,6 @@ import jacketImg1 from '../assets/images/products/jacket-3.jpg';
 import jacketImg2 from '../assets/images/products/jacket-4.jpg';
 import skirtImg1 from '../assets/images/products/clothes-3.jpg';
 import skirtImg2 from '../assets/images/products/clothes-4.jpg';
-import blogImg from '../assets/images/blog-3.jpg';
 import dressFrock from '../assets/images/icons/dress.svg';
 
 const Main = () => {
